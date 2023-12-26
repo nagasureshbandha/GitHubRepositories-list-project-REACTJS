@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffff;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.heading {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 48px;
+  margin-bottom: 48px;
+}
+
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  max-width: 1140px;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-view-image {
+  width: 250px;
+  height: 180px;
+}
+
+.failure-view-image {
+  text-align: center;
+  color: #334155;
+  font-family: 'Bree Serif';
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-image {
+    width: 527px;
+    height: 393px;
+  }
+}
+
+.error-message {
+  text-align: center;
+  color: #334155;
+  font-family: 'Bree Serif';
+  font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .error-message {
+    font-size: 48px;
+  }
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  max-width: 1140px;
+}
